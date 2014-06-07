@@ -3,30 +3,61 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 // bower:scss
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
 // endbower
-
-#home {
-    background: url(../images/bg-home.jpg);
-    background-size: cover;
-    width: 1920px;
-    height: 1080px;
-}
-
 .container {
     width: 960px;
 }
 
-.bgContainer {
-    background-color: rgba(41,63,82,0.7);
+p, h1, h2 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
-header {
+#home {
+    background: url(../images/bg-home.jpg);
+    background-size: cover;
+    header {
     background-color: #304e6a;
-    z-index: 999;
+    background-size: cover;
+    }
+    .bgContainer {
+    background-color: rgba(41,63,82,0.7);
+        .logos {
+        float: right;
+        clear: both;
+        margin: 0;
+        padding: 0;
+        }
+        .prefeitura {
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+    }
+    p{
+        font-size: 1.5em;
+        font-weight: 300;
+        padding-top: 20px;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h1 {
+        font-size: 3em;
+        padding: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+    .green {
+        color: #90b967;
+    }
+    .download {
+        padding-top: 30px;
+    }
 }
 
-.logos {
-    float: right;
-    clear: both;
-    margin: 0;
-    padding: 0;
-}
+
+
+
+
+
+
+
