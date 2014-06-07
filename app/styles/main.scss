@@ -14,3 +14,19 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 .container {
     width: 960px;
 }
+
+.bgContainer {
+    background-color: rgba(41,63,82,0.7);
+}
+
+header {
+    background-color: #304e6a;
+    z-index: 999;
+}
+
+.logos {
+    float: right;
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
