@@ -1,0 +1,16 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+// bower:scss
+@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+// endbower
+
+#home {
+    background: url(../images/bg-home.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1080px;
+}
+
+.container {
+    width: 960px;
+}
