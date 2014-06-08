@@ -4,7 +4,7 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
 // endbower
 .container {
-    width: 960px;
+    width: 980px;
 }
 
 p, h1, h2 {
@@ -18,19 +18,18 @@ p, h1, h2 {
     header {
     background-color: #304e6a;
     background-size: cover;
+    height: 90px;
+    width: 980px;
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(51, 50, 50, 0.59);
+    -moz-box-shadow:    0px 3px 2px 0px rgba(51, 50, 50, 0.59);
+    box-shadow:         0px 3px 2px 0px rgba(51, 50, 50, 0.59);
     }
+     .cornetaRio {
+            padding: 10px 25px;
+
+        }
     .bgContainer {
     background-color: rgba(41,63,82,0.7);
-        .logos {
-        float: right;
-        clear: both;
-        margin: 0;
-        padding: 0;
-        }
-        .prefeitura {
-            padding-top: 20px;
-            padding-right: 20px;
-        }
     }
     p{
         font-size: 1.5em;
@@ -46,16 +45,41 @@ p, h1, h2 {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
     }
-    .green {
+    .textGreen {
         color: #90b967;
     }
     .download {
         padding-top: 30px;
     }
+    .mockup {
+        z-index: 999;
+    }
+    .comoFunciona {
+        padding-top: 60px;
+        padding-right: 20px;
+        float: left;
+    }
+    .textFunciona {
+        margin-top: 15px;
+    }
 }
 
-
-
+        .logos {
+        float: right;
+        clear: both;
+        margin: 0;
+        padding: 0;
+        }
+        .text-logo {
+            font-size: 1em;
+        }
+        .prefeitura {
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+        .marginTop {
+            margin-top: 20px;
+        }
 
 
 
