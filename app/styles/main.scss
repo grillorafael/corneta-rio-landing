@@ -5,12 +5,21 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 // endbower
 .container {
     width: 980px;
+    background-color: rgba(41,63,82,0.7);
 }
 
 p, h1, h2 {
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+.headings {
+        padding-left: 30px;
+    }
 
 #home {
     background: url(../images/bg-home.jpg);
@@ -24,12 +33,8 @@ p, h1, h2 {
     -moz-box-shadow:    0px 3px 2px 0px rgba(51, 50, 50, 0.59);
     box-shadow:         0px 3px 2px 0px rgba(51, 50, 50, 0.59);
     }
-     .cornetaRio {
-            padding: 10px 25px;
-
-        }
-    .bgContainer {
-    background-color: rgba(41,63,82,0.7);
+    .cornetaRio {
+        padding: 10px 25px;
     }
     p{
         font-size: 1.5em;
@@ -38,9 +43,10 @@ p, h1, h2 {
     }
     h2 {
         font-size: 2em;
+        font-weight: 300;
     }
     h1 {
-        font-size: 3em;
+        font-size: 5em;
         padding: 20px;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
@@ -62,25 +68,47 @@ p, h1, h2 {
     .textFunciona {
         margin-top: 15px;
     }
+    .mockup {
+        padding-bottom: 50px;
+
+    }
+    #iconeCog {
+        padding: 10px;
+    }
 }
 
-        .logos {
-        float: right;
-        clear: both;
+
+#comoFunciona {
+    h2{
+        font-size: 2.5em;
+        padding: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+}
+
+
+footer {
+    background-color: #304e6a;
+    background-size: cover;
+    -webkit-box-shadow: 0px -3px 2px 0px rgba(51, 50, 50, 0.59);
+    -moz-box-shadow:    0px -3px 2px 0px rgba(51, 50, 50, 0.59);
+    box-shadow:         0px -3px 2px 0px rgba(51, 50, 50, 0.59);
+    .logos {
         margin: 0;
         padding: 0;
         }
         .text-logo {
             font-size: 1em;
         }
-        .prefeitura {
+        .prefeitura{
             padding-top: 20px;
-            padding-right: 20px;
+            padding-left: 20px;
         }
         .marginTop {
             margin-top: 20px;
         }
-
+}
 
 
 
