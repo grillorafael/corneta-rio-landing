@@ -35,11 +35,11 @@
             <section id="home">
                 <div class="row">
                     <header class="navbar-fixed-top">
-                        <div class="col-md-2 col-md-offset-3">
+                        <div class="col-md-2 col-xs-4 col-sm-4 col-xs-offset-3 col-md-offset-3">
                             <a href="#home"><img src="../images/corneta-logo.png" class="cornetaRio" width="147" alt="logo cornetaRio"></a>
                         </div>
                         <nav >
-                            <ul class="col-md-offset-4">
+                            <ul class="col-md-offset-4 hidden-xs">
                                 <li><a href="#comoFunciona" id="linkFunciona"><p class="textGreen"><i id="iconeCog" class="fa fa-cog icones"></i>Como funciona?</p></a></li>
                                 <li><a href="#depoimentos"><p class="textGreen"><i class="fa fa-comments-o icones"></i>Depoimentos</p></a></li>
                             </ul>
@@ -49,35 +49,42 @@
                 <div class="container">
 
                     <div class="row">
-                        <div class="col-md-11 col-md-offset-1 headings">
-                            <h1>Chegou o <span class="textGreen">CornetaRio</span>!</h1>
+                        <div class="col-md-11 col-xs-6 col-md-offset-1 headings">
+                            <h1 class="responsive_headline">Chegou o <span class="textGreen">CornetaRio</span>!</h1>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-5">
-                            <img src="../images/mockup.gif" class="mockup" alt="mockup celulares">
+                        <div class="col-md-5 ">
+                            <img src="../images/mockup.gif" class="mockup hidden-xs" alt="mockup celulares">
+                            <img src="../images/mockup.gif" class="mockup img-responsive col-xs-5 visible-xs" alt="mockup celulares">
                         </div>
-                        <div class="col-md-5 col-md-offset-1 ">
+                        <div class="col-md-5 col-xs-9 col-md-offset-1">
                             <h2> Comece a cornetar agora!</h2>
                             <p>No <span class="textGreen">CornetaRIO</span> cada cidadão usa sua voz para cornetar tudo que encontrar de <span class="textGreen">errado</span> pela cidade. Registre <span class="textGreen">acontecimentos</span> como violência, tumultos e depredações, a partir de sua <span class="textGreen">localização</span></p>
                             <a href=""><img src="../images/googleplay.png" class="col-md-6 download" alt="download googleplay"></a>
                             <a href=""><img src="../images/appstore.png" class="col-md-6 download" alt="download appstore"></a>
                         </div>
-                    </div>
+                     </div>
+
                 </div>
             </section>
             <section id="comoFunciona">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-11 headings">
-                            <h2>O CornetaRio funciona de uma maneira muito simples!</h2>
+                        <div class="col-md-11 col-md-offset-1 headings">
+                            <h2>É muito fácil usar o CornetaRio!</h2>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-5">
-                            <img src="../images/mockup.gif" class="mockup" alt="mockup celulares">
-                            <img src="../images/cornetaAnimada.gif" alt="">
+                        <div class="col-md-5 col-md-offset-1">
+                            <img src="../images/mockup-como.png" class="mockup img-responsive" alt="mockup celulares">
                         </div>
+                        <ol class="col-md-6">
+                            <li>Localize alguma irregularidade perto de você;</li>
+                            <li>Tira uma foto;</li>
+                            <li>Aperte cornetar e descreva sua cornetada;</li>
+                            <li>Pronto! Sua cornetada está pronta para ser visualizada por outras pessoas.</li>
+                        </ol>
                     </div>
                 </div>
             </section>
@@ -146,6 +153,7 @@
         <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
         <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
         <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+        <script src="bower_components/FitText.js/jquery.fittext.js"></script>
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
