@@ -27,4 +27,4 @@ $(function() {
 });
 
 
-jQuery(".responsive_headline").fitText(1.2); // Turn the compressor up   (resizes more aggressively)
+jQuery(".responsive_headline").fitText(1.2, { minFontSize: '20px', maxFontSize: '70px' })
