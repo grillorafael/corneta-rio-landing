@@ -28,3 +28,5 @@ $(function() {
 
 
 jQuery(".responsive_headline").fitText(1.2, { minFontSize: '20px', maxFontSize: '70px' })
+
+new WOW().init();

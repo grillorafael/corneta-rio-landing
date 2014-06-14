@@ -7,7 +7,9 @@
     "jquery": "~1.11.0",
     "onepage-scroll": "latest",
     "fontawesome": "latest",
-    "FitText.js": "latest"
+    "FitText.js": "latest",
+    "WOW": "latest",
+    "animate.css": "latest"
   },
   "devDependencies": {}
 }
